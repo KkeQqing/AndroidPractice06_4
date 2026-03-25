@@ -7,16 +7,16 @@
 
     <ImageView
         android:id="@+id/tab_icon"
-        android:layout_width="367dp"
-        android:layout_height="520dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:src="@drawable/ic_news_normal" />
 
     <TextView
         android:id="@+id/tab_text"
-        android:layout_width="112dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="标题"
-        android:textColor="#666666"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:textColor="#666666"/>
 </LinearLayout>
